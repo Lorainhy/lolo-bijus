@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>lolo bijus</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+ 
+  <header>
+    <div class="header-container">
+      <div class="logo-circle">
+        <img src="imagens/logo.jpeg" alt="Logo Lolo Bijus" />
+      </div>
+      <div class="logo-text">
+        <h2>lolo Bijus</h2>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+    
+    <section class="hero">
+      <h1>Seja Bem-vindo(a) lolo bijus</h1>
+      <p>Onde a criatividade e delicadeza se transformam em acessórios</p>
+    </section>
+
+    <section class="categories-section">
+      <h2>Nossas opções</h2>
+      <div class="categories-wrapper">
+        
+        <div class="category-item" onclick="filtrarProdutos('todos')">
+          <div class="category-circle">
+            <img src="imagens/logo.jpeg" alt="Todos" />
+          </div>
+          <span>Todos</span>
+        </div>
+
+        <div class="category-item" onclick="filtrarProdutos('pulseiras')">
+          <div class="category-circle">
+            <img src="imagens/pulseirapink.jpeg" alt="Pulseiras" />
+          </div>
+          <span>Pulseiras</span>
+        </div>
+
+        <div class="category-item" onclick="filtrarProdutos('colares')">
+          <div class="category-circle">
+            <img src="imagens/colarregulavelstar.jpeg" alt="Colares" />
+          </div>
+          <span>Colares</span>
+        </div>
+
+        <div class="category-item" onclick="filtrarProdutos('aneis')">
+          <div class="category-circle">
+            <img src="imagens/anelrubi.jpeg" alt="Anéis" />
+          </div>
+          <span>Anéis</span>
+        </div>
+
+        <div class="category-item" onclick="filtrarProdutos('chaveiros')">
+          <div class="category-circle">
+            <img src="imagens/chaveirogreen.jpeg" alt="Chaveiros" />
+          </div>
+          <span>Chaveiros</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="products-section">
+      <h2>Todos os produtos</h2>
+      <div class="products-grid" id="container-produtos"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <h3>lolo Bijus</h3>
+    </div>
+    <p class="contact-title">Entre em contato conosco!</p>
+    <p>Instagram: lolo.bijus</p>
+    <p>WhatsApp: 68 984053618</p>
+  </footer>
+
+  <a href="https://wa.me/5568984053618" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Fale Conosco no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
